@@ -1,0 +1,115 @@
+\documentclass{report}
+\usepackage{setspace}
+%\usepackage{subfigure}
+
+\pagestyle{plain}
+\usepackage{amssymb,graphicx,color}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{a4wide}
+\usepackage{amsmath}
+
+\graphicspath{{figures/}}
+
+\usepackage{hyperref}
+\usepackage[all]{hypcap}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[nottoc]{tocbibind}
+
+\newtheorem{theorem}{THEOREM}
+\newtheorem{lemma}[theorem]{LEMMA}
+\newtheorem{corollary}[theorem]{COROLLARY}
+\newtheorem{proposition}[theorem]{PROPOSITION}
+\newtheorem{remark}[theorem]{REMARK}
+\newtheorem{definition}[theorem]{DEFINITION}
+\newtheorem{fact}[theorem]{FACT}
+
+\newtheorem{problem}[theorem]{PROBLEM}
+\newtheorem{exercise}[theorem]{EXERCISE}
+\def \set#1{\{#1\} }
+
+\newenvironment{proof}{
+PROOF:
+\begin{quotation}}{
+$\Box$ \end{quotation}}
+
+
+
+\newcommand{\nats}{\mbox{\( \mathbb N \)}}
+\newcommand{\rat}{\mbox{\(\mathbb Q\)}}
+\newcommand{\rats}{\mbox{\(\mathbb Q\)}}
+\newcommand{\reals}{\mbox{\(\mathbb R\)}}
+\newcommand{\ints}{\mbox{\(\mathbb Z\)}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{  	{ \includegraphics[scale=.5]{ucl_logo.png}}\\
+{{\Huge Multi-hop Question Answering on Knowledge Graph Completed with Reinforcement Learning}}\\
+% {\large Optional Subtitle}\\
+		}
+\date{September 2019}
+\author{Yangguang Li\thanks{
+{\bf Disclaimer:}
+This report is submitted as part requirement for the MSc in Computational Statistics and Machine Learning at UCL. It is
+substantially the result of my own work except where explicitly indicated in the text. The report may be freely copied and distributed provided the source is explicitly acknowledged}
+\\ \\
+MSc Computational Statistics and Machine Learning\\ \\
+Supervisor: Prof. Philip Treleaven\\
+Industrial Supervisor: Marcelo Gutierrez}
+
+
+
+\begin{document}
+
+ \onehalfspacing
+\maketitle
+\begin{abstract}
+\begin{singlespace}
+This dissertation investigates the possibility of utilizing multi-hop question answering as an auxiliary task for link prediction in knowledge graphs (KG) using reinforcement learning. This is important as KG, a graphical representation of information in a knowledge base, is known to be incomplete. Hence try to predict what is missing in the KGs would be useful for recommendation systems, search engine, and etc. However, the existing methods for link prediction on KGs are considering the links itself, but not attempted to perform downstream tasks using the link-predicted KGs. Therefore this research fulfills this gap and explores whether doing a auxiliary task would also improve the link prediction. This research comprises graph neural networks, asynchronous Advantage Actor-Critic algorithm, and/or proximal policy optimisation; DLG and/or PyTorch Geometric; QAngaroo and HOTPOTQA.
+\end{singlespace}
+\end{abstract}
+\tableofcontents
+% \setcounter{page}{1}
+
+
+\chapter{Introduction}
+% Mathematical expressions are placed inline between dollar signs, e.g. $\sqrt 2, \sum_{i=0}^nf(i)$, or in display mode
+% \[ e^{i\pi}=-1\] and another way, this time with labels,
+% \begin{align}
+% \label{line1} A=B\wedge B=C&\rightarrow A=C\\
+% &\rightarrow C=A\\
+% \intertext{note that}
+% n!&=\prod_{1\leq i\leq n}i \\
+% \int_{x=1}^y \frac 1 x \mathrm{d}x&=\log y
+% \end{align}
+% We can refer to labels like this \eqref{line1}.
+
+\chapter{Related Work}
+
+
+\chapter{Methodology}
+% If you have a formal theorem you might try this.
+% \begin{definition}\label{def}
+% See definition~\ref{def}.
+% \end{definition}
+% \begin{theorem}
+% For all $n\in\nats,\; 1^n=1$.
+% \end{theorem}
+% \begin{proof}
+% By induction over $n$.
+% \end{proof}
+
+\chapter{Experimental Results}
+
+\chapter{Conclusion}
+
+\appendix
+\bibliographystyle{plain}
+\bibliography{ref}
+
+\chapter{Appendix}
+
+\end{document}

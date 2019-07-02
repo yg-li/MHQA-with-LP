@@ -1,0 +1,79 @@
+\begin{thebibliography}{10}
+
+\bibitem{hermann_teaching_2015}
+Karl~Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will
+  Kay, Mustafa Suleyman, and Phil Blunsom.
+\newblock Teaching {Machines} to {Read} and {Comprehend}.
+\newblock In C.~Cortes, N.~D. Lawrence, D.~D. Lee, M.~Sugiyama, and R.~Garnett,
+  editors, {\em Advances in {Neural} {Information} {Processing} {Systems} 28},
+  pages 1693--1701. Curran Associates, Inc., 2015.
+
+\bibitem{joshi_triviaqa:_2017}
+Mandar Joshi, Eunsol Choi, Daniel~S. Weld, and Luke Zettlemoyer.
+\newblock {TriviaQA}: {A} {Large} {Scale} {Distantly} {Supervised} {Challenge}
+  {Dataset} for {Reading} {Comprehension}.
+\newblock pages 1601--1611, July 2017.
+
+\bibitem{kocisky_narrativeqa_2018}
+Tomáš Kočiský, Jonathan Schwarz, Phil Blunsom, Chris Dyer, Karl~Moritz
+  Hermann, Gábor Melis, and Edward Grefenstette.
+\newblock The {NarrativeQA} {Reading} {Comprehension} {Challenge}.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  6:317--328, 2018.
+
+\bibitem{lai_race:_2017}
+Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy.
+\newblock {RACE}: {Large}-scale {ReAding} {Comprehension} {Dataset} {From}
+  {Examinations}.
+\newblock In {\em Proceedings of the 2017 {Conference} on {Empirical} {Methods}
+  in {Natural} {Language} {Processing}}, pages 785--794, Copenhagen, Denmark,
+  September 2017. Association for Computational Linguistics.
+
+\bibitem{rajpurkar_squad:_2016}
+Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang.
+\newblock {SQuAD}: 100,000+ {Questions} for {Machine} {Comprehension} of
+  {Text}.
+\newblock pages 2383--2392, November 2016.
+
+\bibitem{reddy_coqa:_2019}
+Siva Reddy, Danqi Chen, and Christopher~D. Manning.
+\newblock {CoQA}: {A} {Conversational} {Question} {Answering} {Challenge}.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  7(0):249--266, May 2019.
+
+\bibitem{seo_bidirectional_2016}
+Minjoon Seo, Aniruddha Kembhavi, Ali Farhadi, and Hannaneh Hajishirzi.
+\newblock Bidirectional {Attention} {Flow} for {Machine} {Comprehension}.
+\newblock {\em arXiv:1611.01603 [cs]}, November 2016.
+\newblock arXiv: 1611.01603.
+
+\bibitem{shen_reasonet:_2017}
+Yelong Shen, Po-Sen Huang, Jianfeng Gao, and Weizhu Chen.
+\newblock {ReasoNet}: {Learning} to {Stop} {Reading} in {Machine}
+  {Comprehension}.
+\newblock In {\em Proceedings of the 23rd {ACM} {SIGKDD} {International}
+  {Conference} on {Knowledge} {Discovery} and {Data} {Mining}}, {KDD} '17,
+  pages 1047--1055, New York, NY, USA, 2017. ACM.
+\newblock event-place: Halifax, NS, Canada.
+
+\bibitem{weissenborn_making_2017}
+Dirk Weissenborn, Georg Wiese, and Laura Seiffe.
+\newblock Making {Neural} {QA} as {Simple} as {Possible} but not {Simpler}.
+\newblock In {\em Proceedings of the 21st {Conference} on {Computational}
+  {Natural} {Language} {Learning} ({CoNLL} 2017)}, pages 271--280, Vancouver,
+  Canada, August 2017. Association for Computational Linguistics.
+
+\bibitem{welbl_constructing_2018}
+Johannes Welbl, Pontus Stenetorp, and Sebastian Riedel.
+\newblock Constructing {Datasets} for {Multi}-hop {Reading} {Comprehension}
+  {Across} {Documents}.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  6:287--302, 2018.
+
+\bibitem{xiong_dynamic_2016}
+Caiming Xiong, Victor Zhong, and Richard Socher.
+\newblock Dynamic {Coattention} {Networks} {For} {Question} {Answering}.
+\newblock {\em arXiv:1611.01604 [cs]}, November 2016.
+\newblock arXiv: 1611.01604.
+
+\end{thebibliography}

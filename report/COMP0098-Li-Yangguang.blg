@@ -1,0 +1,18 @@
+This is 8-bit Big BibTeX version 0.99c
+Implementation:  GNU C for Unix
+Release version: 3.71 (18 Aug 1996)
+
+The top-level auxiliary file: COMP0098-Li-Yangguang.aux
+The style file: plain.bst
+Database file #1: ref.bib
+Warning--empty booktitle in joshi_triviaqa:_2017
+Warning--empty booktitle in rajpurkar_squad:_2016
+
+Here's how much of BibTeX's memory you used:
+ Cites:                11 out of 7500
+ Fields:               81 out of 125000
+ Hash table:        34837 out of 35000
+ Strings:             562 out of 30000
+ String pool:        6702 out of 750000
+ Wizard functions:   2118 out of 10000
+(There were 2 warnings)
