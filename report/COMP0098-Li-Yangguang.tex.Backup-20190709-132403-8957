@@ -71,9 +71,6 @@ Industrial Supervisor: Marcelo Gutierrez}
 \maketitle
 \begin{abstract}
 \begin{onehalfspace}
-Question answering (QA) is a 
-
-
 This dissertation investigates the possibility of utilizing link prediction on graphs as an auxiliary
 task of multi-hop question answering (MHQA) problem, i.e. to improve MHQA by completing the graph used
 for inference. Another sub-goal is to examine ways to adapt reinforcement learning for predicting links

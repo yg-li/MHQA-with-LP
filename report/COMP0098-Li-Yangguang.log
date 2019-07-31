@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.10.18)  2 JUL 2019 10:38
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.10.18)  3 JUL 2019 15:56
  restricted system commands enabled.
 **COMP0098-Li-Yangguang.tex
 (./COMP0098-Li-Yangguang.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.239 seconds
+luaotfload | main : initialization completed in 0.224 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
@@ -487,19 +487,19 @@ tl/lmroman17-regular.luc) <figures/ucl_logo.png, id=36, 295.1025pt x 84.315pt>
 File: figures/ucl_logo.png Graphic file (type png)
 
 <use figures/ucl_logo.png>
-Package luatex.def Info: figures/ucl_logo.png used on input line 73.
+Package luatex.def Info: figures/ucl_logo.png used on input line 72.
 (luatex.def)             Requested size: 147.55087pt x 42.15738pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
+LaTeX Font Info:    Try loading font information for U+msa on input line 72.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+LaTeX Font Info:    Try loading font information for U+msb on input line 72.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 73.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 72.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -538,7 +538,7 @@ otl/lmroman12-italic.luc)
 File: figures/wikihop_example.png Graphic file (type png)
 
 <use figures/wikihop_example.png>
-Package luatex.def Info: figures/wikihop_example.png used on input line 166.
+Package luatex.def Info: figures/wikihop_example.png used on input line 165.
 (luatex.def)             Requested size: 414.6463pt x 214.0129pt.
  [4] [5<./figures/wikihop_example.png>]
 Chapter 2.
@@ -559,15 +559,15 @@ Chapter 5.
 ] [10
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
  [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
  (./COMP0098-Li-Yangguang.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
 Package rerunfilecheck Info: File `COMP0098-Li-Yangguang.out' has not changed.
 (rerunfilecheck)             Checksum: 58016569B569B396AFC47CFF851471B6;398.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -576,7 +576,7 @@ Here is how much of LuaTeX's memory you used:
  441 words of node memory still in use:
    5 hlist, 2 vlist, 2 rule, 3 glue, 1 kern, 6 attribute, 49 glue_spec, 6 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:259,3:55,4:48,5:213,6:2891,7:960,8:14,9:59,10:25,11:276
+   avail lists: 1:1,2:259,3:55,4:48,5:190,6:2504,7:958,8:14,9:59,10:25,11:242
  11061 multiletter control sequences out of 65536+600000
  76 fonts using 5219103 bytes
  28i,11n,28p,235b,467s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -591,7 +591,7 @@ gular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman17
 cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb>
-Output written on COMP0098-Li-Yangguang.pdf (14 pages, 350716 bytes).
+Output written on COMP0098-Li-Yangguang.pdf (14 pages, 350763 bytes).
 
 PDF statistics: 205 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams

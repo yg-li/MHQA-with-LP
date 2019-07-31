@@ -67,13 +67,11 @@ Industrial Supervisor: Marcelo Gutierrez}
 
 \begin{document}
 
+ %\onehalfspacing
  \doublespacing
 \maketitle
 \begin{abstract}
 \begin{onehalfspace}
-Question answering (QA) is a 
-
-
 This dissertation investigates the possibility of utilizing link prediction on graphs as an auxiliary
 task of multi-hop question answering (MHQA) problem, i.e. to improve MHQA by completing the graph used
 for inference. Another sub-goal is to examine ways to adapt reinforcement learning for predicting links
@@ -82,7 +80,7 @@ has imposed a bigger challenge over single-document question answering problems.
 setting, well-developed models are able to achieve human-level performance, but fall behind in the multi-document
 setting. Although some researches have started to tackle this problem, they are far from achieving human-level
 performance, not mention to solve it. Also link prediction, especially on KGs, is useful for recommendation
-systems, search engine, drug discovery, just to name a few. KGs are known to be incomplete, the ability to reason what
+systems, search engine, just to name a few. KGs are known to be incomplete, the ability to reason what
 is missing in them automatically is vital for successful application of KG in those fields mentioned.
 
 One of the challenge in the MHQA problem is the ability to reason across multiple documents. Some researchers
@@ -132,7 +130,7 @@ of free-form text from the whole span of the given text.
 
 Previous researches mainly focused on QA based on only a single document or paragraph. Boosted by the
 availability of large-scale datasets like SQuAD \cite{rajpurkar_squad:_2016} and CNN/Daily Mail \cite{hermann_teaching_2015}
-in which most questions can be answered by attending the information in only one single sentence,
+which contain questions that can be answered by attending the information in only one single sentence,
  many end-to-end neural models \cite{seo_bidirectional_2016, xiong_dynamic_2016, shen_reasonet:_2017}
 have been proposed and achieved good performances on these datasets. To overcome the limit of these datasets
 \cite{weissenborn_making_2017}: requiring only the information from one single sentence to answer the
