@@ -1,5 +1,198 @@
 \begin{thebibliography}{10}
 
+\bibitem{adamic_friends_2003}
+Lada~A Adamic and Eytan Adar.
+\newblock Friends and neighbors on the {Web}.
+\newblock {\em Social Networks}, 25(3):211--230, July 2003.
+
+\bibitem{andrenucci_automated_2005}
+A.~Andrenucci and E.~Sneiders.
+\newblock Automated question answering: review of the main approaches.
+\newblock In {\em Third {International} {Conference} on {Information}
+  {Technology} and {Applications} ({ICITA}'05)}, volume~1, pages 514--519
+  vol.1, July 2005.
+
+\bibitem{angeline_evolutionary_1998}
+Peter~J. Angeline.
+\newblock Evolutionary optimization versus particle swarm optimization:
+  {Philosophy} and performance differences.
+\newblock In V.~W. Porto, N.~Saravanan, D.~Waagen, and A.~E. Eiben, editors,
+  {\em Evolutionary {Programming} {VII}}, Lecture {Notes} in {Computer}
+  {Science}, pages 601--610. Springer Berlin Heidelberg, 1998.
+
+\bibitem{bahdanau_neural_2014}
+Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.
+\newblock Neural {Machine} {Translation} by {Jointly} {Learning} to {Align} and
+  {Translate}.
+\newblock {\em arXiv:1409.0473 [cs, stat]}, September 2014.
+\newblock arXiv: 1409.0473.
+
+\bibitem{barabasi_emergence_1999}
+Albert-László Barabási and Réka Albert.
+\newblock Emergence of {Scaling} in {Random} {Networks}.
+\newblock {\em Science}, 286(5439):509--512, October 1999.
+
+\bibitem{barber_bayesian_2012}
+David Barber.
+\newblock {\em Bayesian {Reasoning} and {Machine} {Learning}}.
+\newblock Cambridge University Press, February 2012.
+\newblock Google-Books-ID: yxZtddB\_Ob0C.
+
+\bibitem{bauer_commonsense_2018}
+Lisa Bauer, Yicheng Wang, and Mohit Bansal.
+\newblock Commonsense for {Generative} {Multi}-{Hop} {Question} {Answering}
+  {Tasks}.
+\newblock In {\em Proceedings of the 2018 {Conference} on {Empirical} {Methods}
+  in {Natural} {Language} {Processing}}, pages 4220--4230, Brussels, Belgium,
+  October 2018. Association for Computational Linguistics.
+
+\bibitem{berlusconi_link_2016}
+Giulia Berlusconi, Francesco Calderoni, Nicola Parolini, Marco Verani, and
+  Carlo Piccardi.
+\newblock Link {Prediction} in {Criminal} {Networks}: {A} {Tool} for {Criminal}
+  {Intelligence} {Analysis}.
+\newblock {\em PLoS One}, 11(4), April 2016.
+
+\bibitem{bishop_pattern_2006}
+Christopher~M. Bishop.
+\newblock {\em Pattern recognition and machine learning}.
+\newblock Information science and statistics. Springer, New York, NY, 2006.
+
+\bibitem{bordes_translating_2013}
+Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, and Oksana
+  Yakhnenko.
+\newblock Translating {Embeddings} for {Modeling} {Multi}-relational {Data}.
+\newblock In C.~J.~C. Burges, L.~Bottou, M.~Welling, Z.~Ghahramani, and K.~Q.
+  Weinberger, editors, {\em Advances in {Neural} {Information} {Processing}
+  {Systems} 26}, pages 2787--2795. Curran Associates, Inc., 2013.
+
+\bibitem{cao_bag:_2019}
+Yu~Cao, Meng Fang, and Dacheng Tao.
+\newblock {BAG}: {Bi}-directional {Attention} {Entity} {Graph} {Convolutional}
+  {Network} for {Multi}-hop {Reasoning} {Question} {Answering}.
+\newblock {\em arXiv:1904.04969 [cs]}, April 2019.
+\newblock arXiv: 1904.04969.
+
+\bibitem{chen_reading_2017}
+Danqi Chen, Adam Fisch, Jason Weston, and Antoine Bordes.
+\newblock Reading {Wikipedia} to {Answer} {Open}-{Domain} {Questions}.
+\newblock In {\em {ACL}}, pages 1870--1879, July 2017.
+
+\bibitem{clark_simple_2018}
+Christopher Clark and Matt Gardner.
+\newblock Simple and {Effective} {Multi}-{Paragraph} {Reading} {Comprehension}.
+\newblock In {\em Proceedings of the 56th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
+  {Papers})}, pages 845--855, Melbourne, Australia, July 2018. Association for
+  Computational Linguistics.
+
+\bibitem{clark_deep_2016}
+Kevin Clark and Christopher~D. Manning.
+\newblock Deep {Reinforcement} {Learning} for {Mention}-{Ranking} {Coreference}
+  {Models}.
+\newblock In {\em Proceedings of the 2016 {Conference} on {Empirical} {Methods}
+  in {Natural} {Language} {Processing}}, pages 2256--2262, Austin, Texas,
+  November 2016. Association for Computational Linguistics.
+
+\bibitem{de_cao_question_2019}
+Nicola De~Cao, Wilker Aziz, and Ivan Titov.
+\newblock Question {Answering} by {Reasoning} {Across} {Documents} with {Graph}
+  {Convolutional} {Networks}.
+\newblock In {\em Proceedings of the 2019 {Conference} of the {North}
+  {American} {Chapter} of the {Association} for {Computational} {Linguistics}:
+  {Human} {Language} {Technologies}, {Volume} 1 ({Long} and {Short} {Papers})},
+  pages 2306--2317, Minneapolis, Minnesota, June 2019. Association for
+  Computational Linguistics.
+
+\bibitem{defferrard_convolutional_2016}
+Michaël Defferrard, Xavier Bresson, and Pierre Vandergheynst.
+\newblock Convolutional {Neural} {Networks} on {Graphs} with {Fast} {Localized}
+  {Spectral} {Filtering}.
+\newblock In {\em Proceedings of the 30th {International} {Conference} on
+  {Neural} {Information} {Processing} {Systems}}, {NIPS}'16, pages 3844--3852,
+  USA, 2016. Curran Associates Inc.
+\newblock event-place: Barcelona, Spain.
+
+\bibitem{dettmers_convolutional_2017}
+Tim Dettmers, Pasquale Minervini, Pontus Stenetorp, and Sebastian Riedel.
+\newblock Convolutional 2d {Knowledge} {Graph} {Embeddings}.
+\newblock {\em arXiv:1707.01476 [cs]}, July 2017.
+\newblock arXiv: 1707.01476.
+
+\bibitem{dhingra_neural_2018}
+Bhuwan Dhingra, Qiao Jin, Zhilin Yang, William Cohen, and Ruslan Salakhutdinov.
+\newblock Neural {Models} for {Reasoning} over {Multiple} {Mentions} {Using}
+  {Coreference}.
+\newblock In {\em Proceedings of the 2018 {Conference} of the {North}
+  {American} {Chapter} of the {Association} for {Computational} {Linguistics}:
+  {Human} {Language} {Technologies}, {Volume} 2 ({Short} {Papers})}, pages
+  42--48, New Orleans, Louisiana, June 2018. Association for Computational
+  Linguistics.
+
+\bibitem{dhingra_quasar:_2017}
+Bhuwan Dhingra, Kathryn Mazaitis, and William~W. Cohen.
+\newblock Quasar: {Datasets} for {Question} {Answering} by {Search} and
+  {Reading}.
+\newblock {\em ArXiv}, abs/1707.03904, 2017.
+\newblock arXiv: 1707.03904.
+
+\bibitem{dumais_using_1988}
+S.~T. Dumais, G.~W. Furnas, T.~K. Landauer, S.~Deerwester, and R.~Harshman.
+\newblock Using {Latent} {Semantic} {Analysis} to {Improve} {Access} to
+  {Textual} {Information}.
+\newblock In {\em Proceedings of the {SIGCHI} {Conference} on {Human} {Factors}
+  in {Computing} {Systems}}, {CHI} '88, pages 281--285, New York, NY, USA,
+  1988. ACM.
+\newblock event-place: Washington, D.C., USA.
+
+\bibitem{dunn_searchqa:_2017}
+Matthew Dunn, Levent Sagun, Mike Higgins, V.~Ugur Guney, Volkan Cirik, and
+  Kyunghyun Cho.
+\newblock {SearchQA}: {A} {New} {Q}\&{A} {Dataset} {Augmented} with {Context}
+  from a {Search} {Engine}.
+\newblock {\em arXiv:1704.05179 [cs]}, April 2017.
+\newblock arXiv: 1704.05179.
+
+\bibitem{elman_finding_1990}
+Jeffrey~L. Elman.
+\newblock Finding {Structure} in {Time}.
+\newblock {\em Cognitive Science}, 14(2):179--211, 1990.
+
+\bibitem{fey_fast_2019}
+Matthias Fey and Jan~Eric Lenssen.
+\newblock Fast {Graph} {Representation} {Learning} with {PyTorch} {Geometric}.
+\newblock {\em arXiv:1903.02428 [cs, stat]}, March 2019.
+\newblock arXiv: 1903.02428.
+
+\bibitem{freedman_statistical_2009}
+David~A. Freedman.
+\newblock {\em Statistical {Models}: {Theory} and {Practice}}.
+\newblock Cambridge University Press, April 2009.
+\newblock Google-Books-ID: fW\_9BV5Wpf8C.
+
+\bibitem{gardner_allennlp:_2018}
+Matt Gardner, Joel Grus, Mark Neumann, Oyvind Tafjord, Pradeep Dasigi,
+  Nelson~F. Liu, Matthew Peters, Michael Schmitz, and Luke Zettlemoyer.
+\newblock {AllenNLP}: {A} {Deep} {Semantic} {Natural} {Language} {Processing}
+  {Platform}.
+\newblock In {\em Proceedings of {Workshop} for {NLP} {Open} {Source}
+  {Software} ({NLP}-{OSS})}, pages 1--6, Melbourne, Australia, July 2018.
+  Association for Computational Linguistics.
+
+\bibitem{graves_speech_2013}
+A.~Graves, A.~Mohamed, and G.~Hinton.
+\newblock Speech recognition with deep recurrent neural networks.
+\newblock In {\em 2013 {IEEE} {International} {Conference} on {Acoustics},
+  {Speech} and {Signal} {Processing}}, pages 6645--6649, May 2013.
+
+\bibitem{hamilton_inductive_2017}
+Will Hamilton, Zhitao Ying, and Jure Leskovec.
+\newblock Inductive {Representation} {Learning} on {Large} {Graphs}.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, {\em Advances in {Neural}
+  {Information} {Processing} {Systems} 30}, pages 1024--1034. Curran
+  Associates, Inc., 2017.
+
 \bibitem{hermann_teaching_2015}
 Karl~Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will
   Kay, Mustafa Suleyman, and Phil Blunsom.
@@ -8,11 +201,68 @@ Karl~Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will
   editors, {\em Advances in {Neural} {Information} {Processing} {Systems} 28},
   pages 1693--1701. Curran Associates, Inc., 2015.
 
+\bibitem{hill_goldilocks_2015}
+Felix Hill, Antoine Bordes, Sumit Chopra, and Jason Weston.
+\newblock The {Goldilocks} {Principle}: {Reading} {Children}'s {Books} with
+  {Explicit} {Memory} {Representations}.
+\newblock {\em arXiv:1511.02301 [cs]}, November 2015.
+\newblock arXiv: 1511.02301.
+
+\bibitem{jain_question_2016}
+Sarthak Jain.
+\newblock Question {Answering} over {Knowledge} {Base} using {Factual} {Memory}
+  {Networks}.
+\newblock In {\em Proceedings of the {NAACL} {Student} {Research} {Workshop}},
+  pages 109--115, San Diego, California, June 2016. Association for
+  Computational Linguistics.
+
+\bibitem{jeh_simrank:_2002}
+Glen Jeh and Jennifer Widom.
+\newblock {SimRank}: {A} {Measure} of {Structural}-context {Similarity}.
+\newblock In {\em Proceedings of the {Eighth} {ACM} {SIGKDD} {International}
+  {Conference} on {Knowledge} {Discovery} and {Data} {Mining}}, {KDD} '02,
+  pages 538--543, New York, NY, USA, 2002. ACM.
+\newblock event-place: Edmonton, Alberta, Canada.
+
 \bibitem{joshi_triviaqa:_2017}
 Mandar Joshi, Eunsol Choi, Daniel~S. Weld, and Luke Zettlemoyer.
 \newblock {TriviaQA}: {A} {Large} {Scale} {Distantly} {Supervised} {Challenge}
   {Dataset} for {Reading} {Comprehension}.
-\newblock pages 1601--1611, July 2017.
+\newblock In {\em Proceedings of the 55th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
+  {Papers})}, pages 1601--1611, July 2017.
+
+\bibitem{jurafsky_speech_2000}
+Daniel Jurafsky and James~H. Martin.
+\newblock {\em Speech and {Language} {Processing}: {An} {Introduction} to
+  {Natural} {Language} {Processing}, {Computational} {Linguistics}, and
+  {Speech} {Recognition}}.
+\newblock Prentice Hall PTR, Upper Saddle River, NJ, USA, 1st edition, 2000.
+
+\bibitem{kennedy_particle_1995}
+J.~Kennedy and R.~Eberhart.
+\newblock Particle swarm optimization.
+\newblock In {\em Proceedings of {ICNN}'95 - {International} {Conference} on
+  {Neural} {Networks}}, volume~4, pages 1942--1948 vol.4, November 1995.
+
+\bibitem{kingma_adam:_2014}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: {A} {Method} for {Stochastic} {Optimization}.
+\newblock {\em arXiv:1412.6980 [cs]}, December 2014.
+\newblock arXiv: 1412.6980.
+
+\bibitem{kipf_semi-supervised_2016}
+Thomas~N. Kipf and Max Welling.
+\newblock Semi-{Supervised} {Classification} with {Graph} {Convolutional}
+  {Networks}.
+\newblock {\em arXiv:1609.02907 [cs, stat]}, September 2016.
+\newblock arXiv: 1609.02907.
+
+\bibitem{kipf_variational_2016}
+Thomas~N. Kipf and Max Welling.
+\newblock Variational {Graph} {Auto}-{Encoders}.
+\newblock {\em arXiv:1611.07308 [cs, stat]}, November 2016.
+\newblock arXiv: 1611.07308.
 
 \bibitem{kocisky_narrativeqa_2018}
 Tomáš Kočiský, Jonathan Schwarz, Phil Blunsom, Chris Dyer, Karl~Moritz
@@ -29,11 +279,122 @@ Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy.
   in {Natural} {Language} {Processing}}, pages 785--794, Copenhagen, Denmark,
   September 2017. Association for Computational Linguistics.
 
+\bibitem{li_deepgcns:_2019}
+Guohao Li, Matthias Müller, Ali Thabet, and Bernard Ghanem.
+\newblock {DeepGCNs}: {Can} {GCNs} {Go} as {Deep} as {CNNs}?
+\newblock {\em arXiv:1904.03751 [cs]}, April 2019.
+\newblock arXiv: 1904.03751.
+
+\bibitem{li_gated_2015}
+Yujia Li, Daniel Tarlow, Marc Brockschmidt, and Richard Zemel.
+\newblock Gated {Graph} {Sequence} {Neural} {Networks}.
+\newblock {\em arXiv:1511.05493 [cs, stat]}, November 2015.
+\newblock arXiv: 1511.05493.
+
+\bibitem{lin_denoising_2018}
+Yankai Lin, Haozhe Ji, Zhiyuan Liu, and Maosong Sun.
+\newblock Denoising {Distantly} {Supervised} {Open}-{Domain} {Question}
+  {Answering}.
+\newblock In {\em Proceedings of the 56th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
+  {Papers})}, pages 1736--1745, Melbourne, Australia, July 2018. Association
+  for Computational Linguistics.
+
+\bibitem{lin_learning_2015}
+Yankai Lin, Zhiyuan Liu, Maosong Sun, Yang Liu, and Xuan Zhu.
+\newblock Learning {Entity} and {Relation} {Embeddings} for {Knowledge} {Graph}
+  {Completion}.
+\newblock {\em AAAI 15}, page~7, 2015.
+
+\bibitem{martschat_latent_2015}
+Sebastian Martschat and Michael Strube.
+\newblock Latent {Structures} for {Coreference} {Resolution}.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  3:405--418, 2015.
+
+\bibitem{micikevicius_mixed_2017}
+Paulius Micikevicius, Sharan Narang, Jonah Alben, Gregory Diamos, Erich Elsen,
+  David Garcia, Boris Ginsburg, Michael Houston, Oleksii Kuchaiev, Ganesh
+  Venkatesh, and Hao Wu.
+\newblock Mixed {Precision} {Training}.
+\newblock {\em arXiv:1710.03740 [cs, stat]}, October 2017.
+\newblock arXiv: 1710.03740.
+
+\bibitem{mihaylov_can_2018}
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal.
+\newblock Can a {Suit} of {Armor} {Conduct} {Electricity}? {A} {New} {Dataset}
+  for {Open} {Book} {Question} {Answering}.
+\newblock In {\em Proceedings of the 2018 {Conference} on {Empirical} {Methods}
+  in {Natural} {Language} {Processing}}, pages 2381--2391, Brussels, Belgium,
+  October 2018. Association for Computational Linguistics.
+
+\bibitem{mikolov_distributed_2013}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.
+\newblock Distributed {Representations} of {Words} and {Phrases} and their
+  {Compositionality}.
+\newblock In C.~J.~C. Burges, L.~Bottou, M.~Welling, Z.~Ghahramani, and K.~Q.
+  Weinberger, editors, {\em Advances in {Neural} {Information} {Processing}
+  {Systems} 26}, pages 3111--3119. Curran Associates, Inc., 2013.
+
+\bibitem{neelakantan_neural_2015}
+Arvind Neelakantan, Quoc~V. Le, and Ilya Sutskever.
+\newblock Neural {Programmer}: {Inducing} {Latent} {Programs} with {Gradient}
+  {Descent}.
+\newblock {\em arXiv:1511.04834 [cs, stat]}, November 2015.
+\newblock arXiv: 1511.04834.
+
+\bibitem{nickel_review_2016}
+M.~Nickel, K.~Murphy, V.~Tresp, and E.~Gabrilovich.
+\newblock A {Review} of {Relational} {Machine} {Learning} for {Knowledge}
+  {Graphs}.
+\newblock {\em Proceedings of the IEEE}, 104(1):11--33, January 2016.
+
+\bibitem{paszke_automatic_2017}
+Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary
+  DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer.
+\newblock Automatic differentiation in {PyTorch}.
+\newblock {\em NIPS}, October 2017.
+
+\bibitem{pennington_glove:_2014}
+Jeffrey Pennington, Richard Socher, and Christopher Manning.
+\newblock Glove: {Global} {Vectors} for {Word} {Representation}.
+\newblock In {\em Proceedings of the 2014 {Conference} on {Empirical} {Methods}
+  in {Natural} {Language} {Processing} ({EMNLP})}, pages 1532--1543, Doha,
+  Qatar, October 2014. Association for Computational Linguistics.
+
+\bibitem{peters_deep_2018}
+Matthew Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+  Kenton Lee, and Luke Zettlemoyer.
+\newblock Deep {Contextualized} {Word} {Representations}.
+\newblock In {\em Proceedings of the 2018 {Conference} of the {North}
+  {American} {Chapter} of the {Association} for {Computational} {Linguistics}:
+  {Human} {Language} {Technologies}, {Volume} 1 ({Long} {Papers})}, pages
+  2227--2237, New Orleans, Louisiana, June 2018. Association for Computational
+  Linguistics.
+
+\bibitem{raison_weaver:_2018}
+Martin Raison, Pierre-Emmanuel Mazaré, Rajarshi Das, and Antoine Bordes.
+\newblock Weaver: {Deep} {Co}-{Encoding} of {Questions} and {Documents} for
+  {Machine} {Reading}.
+\newblock {\em arXiv:1804.10490 [cs]}, April 2018.
+\newblock arXiv: 1804.10490.
+
 \bibitem{rajpurkar_squad:_2016}
 Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang.
 \newblock {SQuAD}: 100,000+ {Questions} for {Machine} {Comprehension} of
   {Text}.
-\newblock pages 2383--2392, November 2016.
+\newblock In {\em Proceedings of the 2016 {Conference} on {Empirical} {Methods}
+  in {Natural} {Language} {Processing}}, pages 2383--2392, November 2016.
+
+\bibitem{rasmussen_gaussian_2004}
+Carl~Edward Rasmussen.
+\newblock Gaussian {Processes} in {Machine} {Learning}.
+\newblock In Olivier Bousquet, Ulrike von Luxburg, and Gunnar Rätsch, editors,
+  {\em Advanced {Lectures} on {Machine} {Learning}: {ML} {Summer} {Schools}
+  2003, {Canberra}, {Australia}, {February} 2 - 14, 2003, {Tübingen},
+  {Germany}, {August} 4 - 16, 2003, {Revised} {Lectures}}, Lecture {Notes} in
+  {Computer} {Science}, pages 63--71. Springer Berlin Heidelberg, Berlin,
+  Heidelberg, 2004.
 
 \bibitem{reddy_coqa:_2019}
 Siva Reddy, Danqi Chen, and Christopher~D. Manning.
@@ -41,11 +402,30 @@ Siva Reddy, Danqi Chen, and Christopher~D. Manning.
 \newblock {\em Transactions of the Association for Computational Linguistics},
   7(0):249--266, May 2019.
 
+\bibitem{robbins_stochastic_1951}
+Herbert Robbins and Sutton Monro.
+\newblock A {Stochastic} {Approximation} {Method}.
+\newblock {\em The Annals of Mathematical Statistics}, 22(3):400--407, 1951.
+
+\bibitem{scarselli_graph_2009}
+F.~Scarselli, M.~Gori, A.~C. Tsoi, M.~Hagenbuchner, and G.~Monfardini.
+\newblock The {Graph} {Neural} {Network} {Model}.
+\newblock {\em IEEE Transactions on Neural Networks}, 20(1):61--80, January
+  2009.
+
+\bibitem{schlichtkrull_modeling_2018}
+Michael Schlichtkrull, Thomas~N. Kipf, Peter Bloem, Rianne van den Berg, Ivan
+  Titov, and Max Welling.
+\newblock Modeling {Relational} {Data} with {Graph} {Convolutional} {Networks}.
+\newblock In Aldo Gangemi, Roberto Navigli, Maria-Esther Vidal, Pascal Hitzler,
+  Raphaël Troncy, Laura Hollink, Anna Tordai, and Mehwish Alam, editors, {\em
+  The {Semantic} {Web}}, Lecture {Notes} in {Computer} {Science}, pages
+  593--607. Springer International Publishing, 2018.
+
 \bibitem{seo_bidirectional_2016}
-Minjoon Seo, Aniruddha Kembhavi, Ali Farhadi, and Hannaneh Hajishirzi.
+Min~Joon Seo, Aniruddha Kembhavi, Ali Farhadi, and Hannaneh Hajishirzi.
 \newblock Bidirectional {Attention} {Flow} for {Machine} {Comprehension}.
-\newblock {\em arXiv:1611.01603 [cs]}, November 2016.
-\newblock arXiv: 1611.01603.
+\newblock {\em ArXiv}, abs/1611.01603, 2016.
 
 \bibitem{shen_reasonet:_2017}
 Yelong Shen, Po-Sen Huang, Jianfeng Gao, and Weizhu Chen.
@@ -55,6 +435,131 @@ Yelong Shen, Po-Sen Huang, Jianfeng Gao, and Weizhu Chen.
   {Conference} on {Knowledge} {Discovery} and {Data} {Mining}}, {KDD} '17,
   pages 1047--1055, New York, NY, USA, 2017. ACM.
 \newblock event-place: Halifax, NS, Canada.
+
+\bibitem{socher_reasoning_2013}
+Richard Socher, Danqi Chen, Christopher~D Manning, and Andrew Ng.
+\newblock Reasoning {With} {Neural} {Tensor} {Networks} for {Knowledge} {Base}
+  {Completion}.
+\newblock In C.~J.~C. Burges, L.~Bottou, M.~Welling, Z.~Ghahramani, and K.~Q.
+  Weinberger, editors, {\em Advances in {Neural} {Information} {Processing}
+  {Systems} 26}, pages 926--934. Curran Associates, Inc., 2013.
+
+\bibitem{song_exploring_2018}
+Linfeng Song, Zhiguo Wang, Mo~Yu, Yue Zhang, Radu Florian, and Daniel Gildea.
+\newblock Exploring {Graph}-structured {Passage} {Representation} for
+  {Multi}-hop {Reading} {Comprehension} with {Graph} {Neural} {Networks}.
+\newblock {\em arXiv:1809.02040 [cs]}, September 2018.
+\newblock arXiv: 1809.02040.
+
+\bibitem{song_graph--sequence_2018}
+Linfeng Song, Yue Zhang, Zhiguo Wang, and Daniel Gildea.
+\newblock A {Graph}-to-{Sequence} {Model} for {AMR}-to-{Text} {Generation}.
+\newblock In {\em Proceedings of the 56th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
+  {Papers})}, pages 1616--1626, Melbourne, Australia, July 2018. Association
+  for Computational Linguistics.
+
+\bibitem{speer_conceptnet_2016}
+Robyn Speer, Joshua Chin, and Catherine Havasi.
+\newblock {ConceptNet} 5.5: {An} {Open} {Multilingual} {Graph} of {General}
+  {Knowledge}.
+\newblock {\em arXiv:1612.03975 [cs]}, December 2016.
+\newblock arXiv: 1612.03975.
+
+\bibitem{strubell_fast_2017}
+Emma Strubell, Patrick Verga, David Belanger, and Andrew McCallum.
+\newblock Fast and {Accurate} {Entity} {Recognition} with {Iterated} {Dilated}
+  {Convolutions}.
+\newblock In {\em Proceedings of the 2017 {Conference} on {Empirical} {Methods}
+  in {Natural} {Language} {Processing}}, pages 2670--2680, Copenhagen, Denmark,
+  September 2017. Association for Computational Linguistics.
+
+\bibitem{sukhbaatar_end--end_2015}
+Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus.
+\newblock End-{To}-{End} {Memory} {Networks}.
+\newblock In C.~Cortes, N.~D. Lawrence, D.~D. Lee, M.~Sugiyama, and R.~Garnett,
+  editors, {\em Advances in {Neural} {Information} {Processing} {Systems} 28},
+  pages 2440--2448. Curran Associates, Inc., 2015.
+
+\bibitem{sun_improving_2019}
+Kai Sun, Dian Yu, Dong Yu, and Claire Cardie.
+\newblock Improving {Machine} {Reading} {Comprehension} with {General}
+  {Reading} {Strategies}.
+\newblock In {\em Proceedings of the 2019 {Conference} of the {North}
+  {American} {Chapter} of the {Association} for {Computational} {Linguistics}:
+  {Human} {Language} {Technologies}, {Volume} 1 ({Long} and {Short} {Papers})},
+  pages 2633--2643, Minneapolis, Minnesota, June 2019. Association for
+  Computational Linguistics.
+
+\bibitem{talasu_link_2017}
+N.~Talasu, A.~Jonnalagadda, S.~S.~A. Pillai, and J.~Rahul.
+\newblock A link prediction based approach for recommendation systems.
+\newblock In {\em 2017 {International} {Conference} on {Advances} in
+  {Computing}, {Communications} and {Informatics} ({ICACCI})}, pages
+  2059--2062, September 2017.
+
+\bibitem{toutanova_observed_2015}
+Kristina Toutanova and Danqi Chen.
+\newblock Observed versus latent features for knowledge base and text
+  inference.
+\newblock In {\em {ACL}}, pages 57--66, July 2015.
+
+\bibitem{tu_multi-hop_2019}
+Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He, and Bowen Zhou.
+\newblock Multi-hop {Reading} {Comprehension} across {Multiple} {Documents} by
+  {Reasoning} over {Heterogeneous} {Graphs}.
+\newblock In {\em Proceedings of the 57th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics}}, pages 2704--2713, Florence,
+  Italy, July 2019. Association for Computational Linguistics.
+
+\bibitem{turing_i.computing_1950}
+A.~M. Turing.
+\newblock I.—{COMPUTING} {MACHINERY} {AND} {INTELLIGENCE}.
+\newblock {\em Mind}, LIX(236):433--460, October 1950.
+
+\bibitem{van_der_malsburg_frank_1986}
+C.~Van Der~Malsburg.
+\newblock Frank {Rosenblatt}: {Principles} of {Neurodynamics}: {Perceptrons}
+  and the {Theory} of {Brain} {Mechanisms}.
+\newblock In Günther Palm and Ad~Aertsen, editors, {\em Brain {Theory}}, pages
+  245--248. Springer Berlin Heidelberg, 1986.
+
+\bibitem{velickovic_graph_2017}
+Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro
+  Liò, and Yoshua Bengio.
+\newblock Graph {Attention} {Networks}.
+\newblock {\em arXiv:1710.10903 [cs, stat]}, October 2017.
+\newblock arXiv: 1710.10903.
+
+\bibitem{wang_r$^3$:_2017}
+Shuohang Wang, Mo~Yu, Xiaoxiao Guo, Zhiguo Wang, Tim Klinger, Wei Zhang, Shiyu
+  Chang, Gerald Tesauro, Bowen Zhou, and Jing Jiang.
+\newblock R\${\textasciicircum}3\$: {Reinforced} {Reader}-{Ranker} for
+  {Open}-{Domain} {Question} {Answering}.
+\newblock {\em arXiv:1709.00023 [cs]}, August 2017.
+\newblock arXiv: 1709.00023.
+
+\bibitem{wang_evidence_2017}
+Shuohang Wang, Mo~Yu, Jing Jiang, Wei Zhang, Xiaoxiao Guo, Shiyu Chang, Zhiguo
+  Wang, Tim Klinger, Gerald Tesauro, and Murray Campbell.
+\newblock Evidence {Aggregation} for {Answer} {Re}-{Ranking} in {Open}-{Domain}
+  {Question} {Answering}.
+\newblock {\em arXiv:1711.05116 [cs]}, November 2017.
+\newblock arXiv: 1711.05116.
+
+\bibitem{wang_joint_2018}
+Zhen Wang, Jiachen Liu, Xinyan Xiao, Yajuan Lyu, and Tian Wu.
+\newblock Joint {Training} of {Candidate} {Extraction} and {Answer} {Selection}
+  for {Reading} {Comprehension}.
+\newblock In {\em Proceedings of the 56th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
+  {Papers})}, pages 1715--1724, Melbourne, Australia, July 2018. Association
+  for Computational Linguistics.
+
+\bibitem{wang_knowledge_2014}
+Zhen Wang, Jianwen Zhang, Jianlin Feng, and Zheng Chen.
+\newblock Knowledge {Graph} {Embedding} by {Translating} on {Hyperplanes}.
+\newblock {\em AAAI 14}, page~8, 2014.
 
 \bibitem{weissenborn_making_2017}
 Dirk Weissenborn, Georg Wiese, and Laura Seiffe.
@@ -70,10 +575,94 @@ Johannes Welbl, Pontus Stenetorp, and Sebastian Riedel.
 \newblock {\em Transactions of the Association for Computational Linguistics},
   6:287--302, 2018.
 
+\bibitem{weston_towards_2015}
+Jason Weston, Antoine Bordes, Sumit Chopra, Alexander~M. Rush, Bart van
+  Merriënboer, Armand Joulin, and Tomas Mikolov.
+\newblock Towards {AI}-{Complete} {Question} {Answering}: {A} {Set} of
+  {Prerequisite} {Toy} {Tasks}.
+\newblock {\em arXiv:1502.05698 [cs, stat]}, February 2015.
+\newblock arXiv: 1502.05698.
+
+\bibitem{wilson_marginal_2017}
+Ashia~C Wilson, Rebecca Roelofs, Mitchell Stern, Nati Srebro, and Benjamin
+  Recht.
+\newblock The {Marginal} {Value} of {Adaptive} {Gradient} {Methods} in
+  {Machine} {Learning}.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, {\em Advances in {Neural}
+  {Information} {Processing} {Systems} 30}, pages 4148--4158. Curran
+  Associates, Inc., 2017.
+
+\bibitem{wiseman_learning_2016}
+Sam Wiseman, Alexander~M. Rush, and Stuart~M. Shieber.
+\newblock Learning {Global} {Features} for {Coreference} {Resolution}.
+\newblock In {\em Proceedings of the 2016 {Conference} of the {North}
+  {American} {Chapter} of the {Association} for {Computational} {Linguistics}:
+  {Human} {Language} {Technologies}}, pages 994--1004, San Diego, California,
+  June 2016. Association for Computational Linguistics.
+
+\bibitem{wu_global--local_2019}
+Chien-Sheng Wu, Richard Socher, and Caiming Xiong.
+\newblock Global-to-local {Memory} {Pointer} {Networks} for {Task}-{Oriented}
+  {Dialogue}.
+\newblock {\em arXiv:1901.04713 [cs]}, January 2019.
+\newblock arXiv: 1901.04713.
+
 \bibitem{xiong_dynamic_2016}
 Caiming Xiong, Victor Zhong, and Richard Socher.
 \newblock Dynamic {Coattention} {Networks} {For} {Question} {Answering}.
 \newblock {\em arXiv:1611.01604 [cs]}, November 2016.
 \newblock arXiv: 1611.01604.
+
+\bibitem{yang_embedding_2014}
+Bishan Yang, Wen-tau Yih, Xiaodong He, Jianfeng Gao, and Li~Deng.
+\newblock Embedding {Entities} and {Relations} for {Learning} and {Inference}
+  in {Knowledge} {Bases}.
+\newblock {\em arXiv:1412.6575 [cs]}, December 2014.
+\newblock arXiv: 1412.6575.
+
+\bibitem{yin_neural_2016}
+Pengcheng Yin, Zhengdong Lu, Hang Li, and Kao Ben.
+\newblock Neural {Enquirer}: {Learning} to {Query} {Tables} in {Natural}
+  {Language}.
+\newblock In {\em Proceedings of the {Workshop} on {Human}-{Computer}
+  {Question} {Answering}}, pages 29--35, San Diego, California, June 2016.
+  Association for Computational Linguistics.
+
+\bibitem{zhang_sentence-state_2018}
+Yue Zhang, Qi~Liu, and Linfeng Song.
+\newblock Sentence-{State} {LSTM} for {Text} {Representation}.
+\newblock In {\em Proceedings of the 56th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
+  {Papers})}, pages 317--327, Melbourne, Australia, July 2018. Association for
+  Computational Linguistics.
+
+\bibitem{zhong_coarse-grain_2019}
+Victor Zhong, Caiming Xiong, Nitish~Shirish Keskar, and Richard Socher.
+\newblock Coarse-grain {Fine}-grain {Coattention} {Network} for
+  {Multi}-evidence {Question} {Answering}.
+\newblock {\em arXiv:1901.00603 [cs]}, January 2019.
+\newblock arXiv: 1901.00603.
+
+\bibitem{zhou_graph_2018}
+Jie Zhou, Ganqu Cui, Zhengyan Zhang, Cheng Yang, Zhiyuan Liu, Lifeng Wang,
+  Changcheng Li, and Maosong Sun.
+\newblock Graph {Neural} {Networks}: {A} {Review} of {Methods} and
+  {Applications}.
+\newblock {\em arXiv:1812.08434 [cs, stat]}, December 2018.
+\newblock arXiv: 1812.08434.
+
+\bibitem{zhou_predicting_2009}
+Tao Zhou, Linyuan Lü, and Yi-Cheng Zhang.
+\newblock Predicting missing links via local information.
+\newblock {\em Eur. Phys. J. B}, 71(4):623--630, October 2009.
+
+\bibitem{zhuang_token-level_2019}
+Yimeng Zhuang and Huadong Wang.
+\newblock Token-level {Dynamic} {Self}-{Attention} {Network} for
+  {Multi}-{Passage} {Reading} {Comprehension}.
+\newblock In {\em Proceedings of the 57th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics}}, pages 2252--2262, Florence,
+  Italy, July 2019. Association for Computational Linguistics.
 
 \end{thebibliography}

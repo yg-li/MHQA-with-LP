@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.10.18)  3 JUL 2019 15:56
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.10.18)  3 SEP 2019 16:12
  restricted system commands enabled.
 **COMP0098-Li-Yangguang.tex
 (./COMP0098-Li-Yangguang.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.224 seconds
+luaotfload | main : initialization completed in 0.210 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
@@ -179,6 +179,105 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2016/12/28 v2.2 Making table heads with diagonal lines
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: luatex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-luatex.def on input line 121.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pict2e/p2e-luatex.def
+File: p2e-luatex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks21
+\@arclen=\dimen114
+\@arcrad=\dimen115
+\@tempdimd=\dimen116
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count101
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count102
+\FP@xia=\count103
+\FP@xib=\count104
+\FP@xfa=\count105
+\FP@xfb=\count106
+\FP@rega=\count107
+\FP@regb=\count108
+\FP@regs=\count109
+\FP@times=\count110
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count111
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count112
+\calc@Bcount=\count113
+\calc@Adimen=\dimen117
+\calc@Bdimen=\dimen118
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count114
+\calc@Cskip=\skip48
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen119
+\extrarowheight=\dimen120
+\NC@list=\toks22
+\extratabsurround=\skip49
+\backup@length=\skip50
+)
+\diagbox@boxa=\box28
+\diagbox@boxb=\box29
+\diagbox@boxm=\box30
+\diagbox@wd=\dimen121
+\diagbox@ht=\dimen122
+\diagbox@insepl=\dimen123
+\diagbox@insepr=\dimen124
+\diagbox@outsepl=\dimen125
+\diagbox@outsepr=\dimen126
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -207,7 +306,7 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks21
+\pdftexcmds@toks=\toks23
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 
@@ -233,14 +332,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen114
-\Hy@linkcounter=\count101
-\Hy@pagecounter=\count102
+\@linkdim=\dimen127
+\Hy@linkcounter=\count115
+\Hy@pagecounter=\count116
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count103
+\Hy@SavedSpaceFactor=\count117
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -252,17 +351,17 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count104
+\c@Hy@tempcnt=\count118
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen115
-\Fld@menulength=\count105
-\Field@Width=\dimen116
-\Fld@charsize=\dimen117
+\XeTeXLinkMargin=\dimen128
+\Fld@menulength=\count119
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -272,32 +371,40 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count106
-\c@Item=\count107
-\c@Hfootnote=\count108
+\Hy@abspage=\count120
+\c@Item=\count121
+\c@Hfootnote=\count122
 )
 
 Package hyperref Message: Driver (autodetected): hluatex.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2017/03/14 v6.85a Hyperref driver for luaTeX
-\Fld@listcount=\count109
-\c@bookmark@seq@number=\count110
+\Fld@listcount=\count123
+\c@bookmark@seq@number=\count124
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 2.
 )
-\Hy@SectionHShift=\skip46
+\Hy@SectionHShift=\skip51
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count125
+\float@exts=\toks24
+\float@box=\box31
+\@float@everytoks=\toks25
+\@floatcapt=\box32
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks22
-\inpenc@posthook=\toks23
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
@@ -396,8 +503,8 @@ Language: english 2017/01/24 v3.3q English support from the babel system
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count111
-\U@D=\dimen118
+\babel@savecnt=\count126
+\U@D=\dimen131
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/luababel.def))
 \l@canadian = a dialect from \language\l@american 
@@ -412,7 +519,7 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
 )
-\c@theorem=\count112
+\c@theorem=\count127
  (./COMP0098-Li-Yangguang.aux)
 \openout1 = COMP0098-Li-Yangguang.aux
 
@@ -435,17 +542,17 @@ LaTeX Font Info:    ... okay on input line 68.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen119
-\scratchbox=\box28
-\nofMPsegments=\count114
-\nofMParguments=\count115
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen120
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count128
+\scratchdimen=\dimen132
+\scratchbox=\box33
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen133
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -463,7 +570,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-\AtBeginShipoutBox=\box29
+\AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring OFF on input line 68.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -472,7 +579,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count119
+\c@section@level=\count134
 )
 LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
@@ -483,12 +590,14 @@ LaTeX Info: Redefining \nameref on input line 68.
 
 \openout3 = COMP0098-Li-Yangguang.out
 (load luc: /Users/yl/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/o
-tl/lmroman17-regular.luc) <figures/ucl_logo.png, id=36, 295.1025pt x 84.315pt>
+tl/lmroman17-regular.luc) <figures/ucl_logo.png, id=132, 295.1025pt x 84.315pt>
 File: figures/ucl_logo.png Graphic file (type png)
 
 <use figures/ucl_logo.png>
 Package luatex.def Info: figures/ucl_logo.png used on input line 72.
 (luatex.def)             Requested size: 147.55087pt x 42.15738pt.
+(load luc: /Users/yl/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/o
+tl/lmroman12-bold.luc)
 LaTeX Font Info:    Try loading font information for U+msa on input line 72.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -509,92 +618,184 @@ atex-cache/generic/fonts/otl/lmroman8-regular.luc)(load luc: /Users/yl/Library/t
 exlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc) [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figures
-/ucl_logo.png>](load luc: /Users/yl/Library/texlive/2017/texmf-var/luatex-cache/
-generic/fonts/otl/lmroman12-bold.luc)
+/ucl_logo.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1] [2] (./COMP0098-Li-Yangguang.toc)
+[1] [2] (./COMP0098-Li-Yangguang.toc
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+])
 \tf@toc=\write4
 
 \openout4 = COMP0098-Li-Yangguang.toc
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1
-
-] (./COMP0098-Li-Yangguang.lof)
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
+[2] (./COMP0098-Li-Yangguang.lof)
 \tf@lof=\write5
 
 \openout5 = COMP0098-Li-Yangguang.lof
+ [3
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
-[2
+] (./COMP0098-Li-Yangguang.lot)
+\tf@lot=\write6
+
+\openout6 = COMP0098-Li-Yangguang.lot
+ [4
 
 ]
 Chapter 1.
-[3
+[5
 
-](load luc: /Users/yl/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/
-otl/lmroman12-italic.luc)
-<figures/wikihop_example.png, id=101, 1057.9525pt x 546.04pt>
+] [6](load luc: /Users/yl/Library/texlive/2017/texmf-var/luatex-cache/generic/fo
+nts/otl/lmroman12-italic.luc)
+<figures/wikihop_example.png, id=293, 1057.9525pt x 546.04pt>
 File: figures/wikihop_example.png Graphic file (type png)
 
 <use figures/wikihop_example.png>
-Package luatex.def Info: figures/wikihop_example.png used on input line 165.
+Package luatex.def Info: figures/wikihop_example.png used on input line 178.
 (luatex.def)             Requested size: 414.6463pt x 214.0129pt.
- [4] [5<./figures/wikihop_example.png>]
+ [7] [8
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.1.1
+'
+<./figures/wikihop_example.png>]
 Chapter 2.
-[6
+[9
 
-]
+] [10](load luc: /Users/yl/Library/texlive/2017/texmf-var/luatex-cache/generic/f
+onts/otl/lmroman6-regular.luc)
+<figures/bilstm.png, id=351, 760.8425pt x 490.83376pt>
+File: figures/bilstm.png Graphic file (type png)
+
+<use figures/bilstm.png>
+Package luatex.def Info: figures/bilstm.png used on input line 238.
+(luatex.def)             Requested size: 207.32315pt x 133.74767pt.
+ [11
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
+'
+<./figures/bilstm.png>] [12] [13]
+<figures/skip_gram.png, id=387, 474.77374pt x 646.415pt>
+File: figures/skip_gram.png Graphic file (type png)
+
+<use figures/skip_gram.png>
+Package luatex.def Info: figures/skip_gram.png used on input line 273.
+(luatex.def)             Requested size: 161.25523pt x 219.55133pt.
+ [14
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.2
+'
+<./figures/skip_gram.png>] [15]
+Overfull \hbox (3.52968pt too wide) in paragraph at lines 304--305
+\TU/lmr/m/n/12 Graph Con-vo-lu-tional Net-work [[]] is a suc-cess-fully adap-ta
+-tion of CNN into graph-structured
+ []
+
+[16
+Missing character: There is no ， (U+FF0C) in font [lmroman12-regular]:+tlig;!
+] [17] <figures/kg.png, id=428, 797.98125pt x 322.20375pt>
+File: figures/kg.png Graphic file (type png)
+
+<use figures/kg.png>
+Package luatex.def Info: figures/kg.png used on input line 336.
+(luatex.def)             Requested size: 414.6463pt x 167.424pt.
+ [18
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.3
+'
+<./figures/kg.png>] [19] [20]
+<figures/lp_model.png, id=483, 674.52pt x 415.5525pt>
+File: figures/lp_model.png Graphic file (type png)
+
+<use figures/lp_model.png>
+Package luatex.def Info: figures/lp_model.png used on input line 386.
+(luatex.def)             Requested size: 184.28568pt x 113.53224pt.
+ [21] [22
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.4
+'
+<./figures/lp_model.png>] [23] [24] [25]
 Chapter 3.
-[7
+[26
 
-]
+] [27] [28] [29] [30
+warning  (pdf backend): ignoring duplicate destination with the name 'table.3.1'
+
+] [31]
 Chapter 4.
-[8
+[32
 
 ]
 Chapter 5.
-(./COMP0098-Li-Yangguang.bbl [9
+(./COMP0098-Li-Yangguang.bbl [33
 
-] [10
+] [34
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+] [35] [36]
+Underfull \hbox (badness 2035) in paragraph at lines 205--210
+\TU/lmr/m/n/12 Prin-ci-ple: Read-ing Chil-dren’s Books with Ex-plicit Mem-ory
+ Rep-re-sen-ta-tions.
+ []
+
+[37]
+Underfull \hbox (badness 5681) in paragraph at lines 262--266
+[]\TU/lmr/m/n/12 Thomas N. Kipf and Max Welling.  Vari-a-tional Graph Auto-Enco
+ders.
+ []
+
+[38] [39]
+Underfull \hbox (badness 1033) in paragraph at lines 376--381
+[]\TU/lmr/m/n/12 Mar-tin Rai-son, Pierre-Emmanuel Mazaré, Ra-jarshi Das, and A
+n-toine Bor-des.
+ []
+
+[40] [41] [42] [43]
+Underfull \hbox (badness 1484) in paragraph at lines 641--646
+\TU/lmr/m/n/12 grain Fine-grain Coat-ten-tion Net-work for Multi-evidence Ques-
+tion An-swer-ing.
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 554.
+ [44]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 554.
  (./COMP0098-Li-Yangguang.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 554.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 554.
 Package rerunfilecheck Info: File `COMP0098-Li-Yangguang.out' has not changed.
-(rerunfilecheck)             Checksum: 58016569B569B396AFC47CFF851471B6;398.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
+(rerunfilecheck)             Checksum: 8C34CBE7681E0B8157859273C4A799A5;2039.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 554.
 )
 
 Here is how much of LuaTeX's memory you used:
- 7349 strings out of 494481
- 100000,221844 words of node,token memory allocated
- 441 words of node memory still in use:
-   5 hlist, 2 vlist, 2 rule, 3 glue, 1 kern, 6 attribute, 49 glue_spec, 6 attrib
-ute_list, 1 write nodes
-   avail lists: 1:1,2:259,3:55,4:48,5:190,6:2504,7:958,8:14,9:59,10:25,11:242
- 11061 multiletter control sequences out of 65536+600000
- 76 fonts using 5219103 bytes
- 28i,11n,28p,235b,467s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 8815 strings out of 494481
+ 100000,266212 words of node,token memory allocated
+ 559 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 3 glue, 1 kern, 27 attribute, 54 glue_spec, 27 attr
+ibute_list, 1 write nodes
+   avail lists: 2:394,3:133,4:42,5:266,6:3207,7:686,8:79,9:189,10:20,11:296
+ 12183 multiletter control sequences out of 65536+600000
+ 81 fonts using 5668807 bytes
+ 31i,14n,28p,1024b,477s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.ot
-f></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.ot
 f></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.ot
 f></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.
 otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regul
 ar.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-re
-gular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman17
--regular.otf></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb>
-Output written on COMP0098-Li-Yangguang.pdf (14 pages, 350763 bytes).
+gular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12
+-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on COMP0098-Li-Yangguang.pdf (47 pages, 907414 bytes).
 
-PDF statistics: 205 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 775 PDF objects out of 1000 (max. 8388607)
+ 675 compressed objects within 7 object streams
+ 204 named destinations out of 1000 (max. 131072)
+ 257 words of extra memory for PDF output out of 10000 (max. 100000000)
 

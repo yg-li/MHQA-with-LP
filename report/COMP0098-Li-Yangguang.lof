@@ -1,7 +1,11 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces An example from the WikiHop dataset.}}{5}{figure.1.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces An example from the WikiHop dataset}}{8}{figure.1.1}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces BiLSTM}}{11}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Skip-gram}}{14}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Knowledge Graph}}{18}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The Link Prediction Model with R-GCN}}{22}{figure.2.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
