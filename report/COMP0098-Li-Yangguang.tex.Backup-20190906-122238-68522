@@ -60,7 +60,8 @@ substantially the result of my own work except where explicitly indicated in the
 be freely copied and distributed provided the source is explicitly acknowledged.}
 \\ \\
 MSc Computational Statistics and Machine Learning\\ \\
-Supervisor: Prof. Philip Treleaven}
+Supervisor: Prof. Philip Treleaven\\
+Industrial Supervisor: Marcelo Gutierrez}
 
 
 
@@ -70,17 +71,28 @@ Supervisor: Prof. Philip Treleaven}
 \maketitle
 \begin{abstract}
 \begin{singlespace}
-Question answering (QA) requires the system to answer a given question by choosing a candidate among a given list, extract the answer from the given text, or recall from the system's knowledge bases. Previously researchers were focusing on answering questions with only one single supporting text, while in the real world, people usually find the answer for a particular question by looking through and combining information from several sources. Hence recently, more researchers are putting efforts into tacking multi-hop QA (MHQA): questions that can only be answered by combining factoid information from multiple sources. Among them, some researchers have successfully used the relational graph and contextual embedder to achieve state-of-the-art (SOTA) result.
+Question answering (QA) requires the system to answer a given question by: choosing a candidate among a given list, extract the answer from given text, or recall from the system's own knowledge bases. Also the question may come with supporting text, images, or videos. Previously researcher were focusing on answering questions with only one single supporting text, while in the real world people usually find the answer for a particular question by looking through and combining information from several sources. Hence recently more researchers are putting efforts into tacking multi-hop QA (MHQA): questions that can only be answered by combining factoid information from multiple sources. Among them, some researchers have successfully used relational graph and contextual embedder to achieve state-of-the-art (SOTA) result.
 
 This dissertation investigates the possibility of utilizing link prediction on graphs as an auxiliary
-task of MHQA problem, i.e. whether the performance on MHQA tasks can be improved by completing the graphs used for inference. This is important because graphs are known to be incomplete, and filling in those missing information by link prediction may help to capture the reasoning chains in the propagation steps in graphs. Though people have achieved near human-level performance in single-document QA, most of the architectures designed for that setting fall behind in the multi-document setting. Some researches have started to tackle this problem, but they are still far from achieving human-level performance, not to mention solving it. One of the reasons that stops graph-based methods to get better performance maybe the missing of information in the graphs.
+task of multi-hop question answering problem, i.e. to improve MHQA by completing the graphs used
+for inference. This is important because graphs are known to be incomplete, and filling in those missing information by link prediction may help capturing the reasoning chains in the propagation steps in graphs.
+Though people have achieved near human-level performance in single-document QA, most of the architectures designed for that setting fall behind in the multi-document setting. Some researches have started to tackle this problem, but they are still far from achieving human-level performance, not to mention solving it. One of the reason that stops graph-based methods to get better performance maybe the missing of information in the graphs.
 
-This research comprises building models with and without a link predictor and then comparing the results of them to verify the effect of performing link prediction on MHQA problems. Both of the models consists of an encoder to summarise the local context of named entities, the graph constructor that build the entity graph out of the supporting documents, a message propagation network to accumulate evidence in the nodes' representations, and an output network to predict the answer. For the model with link predictor, the predictor is inserted between the graph constructor and message propagation network.
+This research comprises:
+\begin{enumerate}
+\item Extract the named entities and coreference chains from the query and its supporting documents to form the nodes and edges of the relational graph;
+\item Encode the mentions of candidates and query contextually to get the initial embedding of nodes with Embeddings from Language Models (ELMo) \cite{peters_deep_2018};
+\item Propagate the information hold in the graph along the edges with Relational Graph Convolutional Network (R-GCN) \cite{schlichtkrull_modeling_2018};
+\item Use an output layer to choose the node with highest probability as the answer.
+\item Perform link prediction before propagate the information and test whether the link prediction has improved the MHQA performance.
+\end{enumerate}
 
-The implementation utilises mixed precision training to enable the graphs
-built to be processed by GPU. Implementing them this way shortens the running time significantly comparing to the papers which did their experiments on CPU \cite{schlichtkrull_modeling_2018, de_cao_question_2019}. Also, mixed precision training allows the algorithm to process some graphs that are too large to put in the memory of GPU.
+The models are built with PyTorch and PyTorch Geometric (PyG) and run on Graphics processing unit (GPU). Implementing them this way significantly shortens the running time comparing to the papers which did the experiments on Central processing unit (CPU) \cite{schlichtkrull_modeling_2018, de_cao_question_2019}. Some of the graphs are too large to put in the memory of GPU. In order to process them, mix precision training is used \cite{micikevicius_mixed_2017}.
 
-The testing is done with the QAngaroo WikiHop \cite{welbl_constructing_2018} dataset, which is explicitly designed to challenge the algorithm to aggregate evidence among passages before it can predict the correct answer. The dataset contains 43738 training instances and 5129 development instances. As the testing set is not published, the evaluation is done on the development set only, i.e. the development set is blinded.
+The testing is done with the QAngaroo \cite{welbl_constructing_2018} dataset, particularly its unmasked WikiHop dataset. The dataset contains 43738 training instances and 5129 development instances. As the testing set is not published, the evaluation is done on the development set only, i.e. the development set is blinded.
+
+[\textbf{TODO} Result]
+
 \end{singlespace}
 \end{abstract}
 

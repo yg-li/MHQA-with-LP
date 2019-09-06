@@ -3,7 +3,7 @@
 \contentsline {chapter}{List of Tables}{4}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}Problem and Motivation}{5}{section.1.1}
-\contentsline {section}{\numberline {1.2}Objective}{7}{section.1.2}
+\contentsline {section}{\numberline {1.2}Objective}{6}{section.1.2}
 \contentsline {section}{\numberline {1.3}Dataset}{7}{section.1.3}
 \contentsline {section}{\numberline {1.4}Structure of the Dissertation}{8}{section.1.4}
 \contentsline {chapter}{\numberline {2}Background and Related Work}{9}{chapter.2}
@@ -12,7 +12,7 @@
 \contentsline {subsubsection}{Neural Network}{10}{section*.4}
 \contentsline {subsubsection}{Loss}{12}{section*.5}
 \contentsline {subsubsection}{Optimisation}{13}{section*.6}
-\contentsline {subsubsection}{Word Embedding}{13}{section*.7}
+\contentsline {subsubsection}{Word Embedding}{14}{section*.7}
 \contentsline {subsection}{\numberline {2.1.2}Graph Neural Network}{15}{subsection.2.1.2}
 \contentsline {subsubsection}{GCN}{16}{section*.8}
 \contentsline {subsubsection}{Relational-GCN}{18}{section*.9}
@@ -20,10 +20,10 @@
 \contentsline {subsubsection}{TransE}{20}{section*.10}
 \contentsline {subsubsection}{NTN}{20}{section*.11}
 \contentsline {subsubsection}{DistMULT}{21}{section*.12}
-\contentsline {subsubsection}{R-GCN}{21}{section*.13}
+\contentsline {subsubsection}{R-GCN}{22}{section*.13}
 \contentsline {subsubsection}{ConvE}{22}{section*.14}
-\contentsline {section}{\numberline {2.2}Related Work}{22}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}MHQA on Knowledge Bases and Sentences}{22}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.2}Related Work}{23}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}MHQA on Knowledge Bases and Sentences}{23}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}MHQA with Attention-Based Methods}{23}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}MHQA with Graph-Based Methods}{24}{subsection.2.2.3}
 \contentsline {chapter}{\numberline {3}Methodology}{26}{chapter.3}
@@ -31,19 +31,23 @@
 \contentsline {subsection}{\numberline {3.1.1}Model Without Link Predictor}{26}{subsection.3.1.1}
 \contentsline {subsubsection}{Encoder}{27}{section*.15}
 \contentsline {subsubsection}{Entity Graph}{27}{section*.16}
-\contentsline {subsubsection}{R-GCN Network}{28}{section*.17}
+\contentsline {subsubsection}{Message Propagation Network}{28}{section*.17}
 \contentsline {subsubsection}{Output Network}{29}{section*.18}
 \contentsline {subsection}{\numberline {3.1.2}Model with Link Predictor}{29}{subsection.3.1.2}
 \contentsline {subsubsection}{Link Predictor}{30}{section*.19}
 \contentsline {section}{\numberline {3.2}Implementation}{31}{section.3.2}
 \contentsline {section}{\numberline {3.3}Testing}{31}{section.3.3}
-\contentsline {section}{\numberline {3.4}Contribution}{31}{section.3.4}
-\contentsline {chapter}{\numberline {4}Experimental Results}{32}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary}{33}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Work}{33}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Encoder ...}{33}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Deeper GNN ...}{33}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Link Prediction ...}{33}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}HotpotQA ...}{33}{subsection.5.2.4}
-\contentsline {chapter}{Bibliography}{34}{appendix*.20}
+\contentsline {section}{\numberline {3.4}Contribution}{32}{section.3.4}
+\contentsline {chapter}{\numberline {4}Experimental Results}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Set-Up of Experiments}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}Results}{34}{section.4.2}
+\contentsline {section}{\numberline {4.3}Assessment}{36}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Work}{38}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Encoder}{38}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Deeper GNN}{38}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Link Prediction}{39}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}HotpotQA}{39}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {A}Codes}{40}{appendix.A}
+\contentsline {chapter}{Bibliography}{41}{appendix*.20}

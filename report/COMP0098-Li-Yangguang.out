@@ -22,11 +22,15 @@
 \BOOKMARK [1][-]{section.3.3}{Testing}{chapter.3}% 22
 \BOOKMARK [1][-]{section.3.4}{Contribution}{chapter.3}% 23
 \BOOKMARK [0][-]{chapter.4}{Experimental Results}{}% 24
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 25
-\BOOKMARK [1][-]{section.5.1}{Summary}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.2}{Future Work}{chapter.5}% 27
-\BOOKMARK [2][-]{subsection.5.2.1}{Encoder ...}{section.5.2}% 28
-\BOOKMARK [2][-]{subsection.5.2.2}{Deeper GNN ...}{section.5.2}% 29
-\BOOKMARK [2][-]{subsection.5.2.3}{Link Prediction ...}{section.5.2}% 30
-\BOOKMARK [2][-]{subsection.5.2.4}{HotpotQA ...}{section.5.2}% 31
-\BOOKMARK [0][-]{appendix*.20}{Bibliography}{}% 32
+\BOOKMARK [1][-]{section.4.1}{Set-Up of Experiments}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.2}{Results}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.3}{Assessment}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Summary}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Future Work}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.2.1}{Encoder}{section.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.2.2}{Deeper GNN}{section.5.2}% 32
+\BOOKMARK [2][-]{subsection.5.2.3}{Link Prediction}{section.5.2}% 33
+\BOOKMARK [2][-]{subsection.5.2.4}{HotpotQA}{section.5.2}% 34
+\BOOKMARK [0][-]{appendix.A}{Codes}{}% 35
+\BOOKMARK [0][-]{appendix*.20}{Bibliography}{}% 36

@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: COMP0098-Li-Yangguang.aux
 The style file: plain.bst
 Database file #1: ref.bib
-You've used 92 entries,
+You've used 66 entries,
             2118 wiz_defined-function locations,
-            1008 strings with 24837 characters,
-and the built_in function-call counts, 40968 in all, are:
-= -- 4102
-> -- 2242
-< -- 49
-+ -- 870
-- -- 770
-* -- 2974
-:= -- 6545
-add.period$ -- 346
-call.type$ -- 92
-change.case$ -- 630
+            862 strings with 19568 characters,
+and the built_in function-call counts, 30359 in all, are:
+= -- 3056
+> -- 1668
+< -- 37
++ -- 644
+- -- 573
+* -- 2222
+:= -- 4823
+add.period$ -- 251
+call.type$ -- 66
+change.case$ -- 461
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 1583
-empty$ -- 2822
-format.name$ -- 770
-if$ -- 8779
+cite$ -- 66
+duplicate$ -- 1170
+empty$ -- 2068
+format.name$ -- 573
+if$ -- 6524
 int.to.chr$ -- 0
-int.to.str$ -- 92
-missing$ -- 96
-newline$ -- 495
-num.names$ -- 206
-pop$ -- 673
+int.to.str$ -- 66
+missing$ -- 66
+newline$ -- 356
+num.names$ -- 148
+pop$ -- 488
 preamble$ -- 1
-purify$ -- 541
+purify$ -- 395
 quote$ -- 0
-skip$ -- 1249
+skip$ -- 929
 stack$ -- 0
-substring$ -- 2407
-swap$ -- 558
-text.length$ -- 49
+substring$ -- 1837
+swap$ -- 428
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 360
+type$ -- 264
 warning$ -- 0
-while$ -- 356
-width$ -- 94
-write$ -- 1125
+while$ -- 262
+width$ -- 68
+write$ -- 812

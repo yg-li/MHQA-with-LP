@@ -1478,3 +1478,112 @@
 	pages = {1--6},
 	file = {Full Text PDF:/Users/yl/Zotero/storage/CQWZ23ID/Gardner et al. - 2018 - AllenNLP A Deep Semantic Natural Language Process.pdf:application/pdf}
 }
+
+@article{markidis_nvidia_2018,
+	title = {{NVIDIA} {Tensor} {Core} {Programmability}, {Performance} \& {Precision}},
+	url = {http://arxiv.org/abs/1803.04014},
+	doi = {10.1109/IPDPSW.2018.00091},
+	abstract = {The NVIDIA Volta GPU microarchitecture introduces a specialized unit, called "Tensor Core" that performs one matrix-multiply-and-accumulate on 4x4 matrices per clock cycle. The NVIDIA Tesla V100 accelerator, featuring the Volta microarchitecture, provides 640 Tensor Cores with a theoretical peak performance of 125 Tflops/s in mixed precision. In this paper, we investigate current approaches to program NVIDIA Tensor Cores, their performances and the precision loss due to computation in mixed precision. Currently, NVIDIA provides three different ways of programming matrix-multiply-and-accumulate on Tensor Cores: the CUDA Warp Matrix Multiply Accumulate (WMMA) API, CUTLASS, a templated library based on WMMA, and cuBLAS GEMM. After experimenting with different approaches, we found that NVIDIA Tensor Cores can deliver up to 83 Tflops/s in mixed precision on a Tesla V100 GPU, seven and three times the performance in single and half precision respectively. A WMMA implementation of batched GEMM reaches a performance of 4 Tflops/s. While precision loss due to matrix multiplication with half precision input might be critical in many HPC applications, it can be considerably reduced at the cost of increased computation. Our results indicate that HPC applications using matrix multiplications can strongly benefit from using of NVIDIA Tensor Cores.},
+	urldate = {2019-09-04},
+	journal = {2018 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)},
+	author = {Markidis, Stefano and Der Chien, Steven Wei and Laure, Erwin and Peng, Ivy Bo and Vetter, Jeffrey S.},
+	month = may,
+	year = {2018},
+	note = {arXiv: 1803.04014},
+	keywords = {Computer Science - Distributed, Parallel, and Cluster Computing, Computer Science - Performance},
+	pages = {522--531},
+	file = {arXiv\:1803.04014 PDF:/Users/yl/Zotero/storage/IDJULHZR/Markidis et al. - 2018 - NVIDIA Tensor Core Programmability, Performance & .pdf:application/pdf;arXiv.org Snapshot:/Users/yl/Zotero/storage/P72KHMT6/1803.html:text/html}
+}
+
+@inproceedings{ioffe_batch_2015,
+	series = {{ICML}'15},
+	title = {Batch {Normalization}: {Accelerating} {Deep} {Network} {Training} by {Reducing} {Internal} {Covariate} {Shift}},
+	shorttitle = {Batch {Normalization}},
+	url = {http://dl.acm.org/citation.cfm?id=3045118.3045167},
+	abstract = {Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phenomenon as internal covariate shift, and address the problem by normalizing layer inputs. Our method draws its strength from making normalization a part of the model architecture and performing the normalization for each training mini-batch. Batch Normalization allows us to use much higher learning rates and be less careful about initialization, and in some cases eliminates the need for Dropout. Applied to a state-of-the-art image classification model, Batch Normalization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensemble of batch-normalized networks, we improve upon the best published result on ImageNet classification: reaching 4.82\% top-5 test error, exceeding the accuracy of human raters.},
+	urldate = {2019-09-04},
+	booktitle = {Proceedings of the 32Nd {International} {Conference} on {International} {Conference} on {Machine} {Learning} - {Volume} 37},
+	publisher = {JMLR.org},
+	author = {Ioffe, Sergey and Szegedy, Christian},
+	year = {2015},
+	note = {event-place: Lille, France},
+	pages = {448--456}
+}
+
+@article{ba_layer_2016,
+	title = {Layer {Normalization}},
+	url = {http://arxiv.org/abs/1607.06450},
+	abstract = {Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This significantly reduces the training time in feed-forward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to recurrent neural networks. In this paper, we transpose batch normalization into layer normalization by computing the mean and variance used for normalization from all of the summed inputs to the neurons in a layer on a single training case. Like batch normalization, we also give each neuron its own adaptive bias and gain which are applied after the normalization but before the non-linearity. Unlike batch normalization, layer normalization performs exactly the same computation at training and test times. It is also straightforward to apply to recurrent neural networks by computing the normalization statistics separately at each time step. Layer normalization is very effective at stabilizing the hidden state dynamics in recurrent networks. Empirically, we show that layer normalization can substantially reduce the training time compared with previously published techniques.},
+	urldate = {2019-09-04},
+	journal = {arXiv:1607.06450 [cs, stat]},
+	author = {Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E.},
+	month = jul,
+	year = {2016},
+	note = {arXiv: 1607.06450},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {arXiv\:1607.06450 PDF:/Users/yl/Zotero/storage/IICTVLMW/Ba et al. - 2016 - Layer Normalization.pdf:application/pdf;arXiv.org Snapshot:/Users/yl/Zotero/storage/IT2EGMV6/1607.html:text/html}
+}
+
+@article{ulyanov_instance_2016,
+	title = {Instance {Normalization}: {The} {Missing} {Ingredient} for {Fast} {Stylization}},
+	shorttitle = {Instance {Normalization}},
+	url = {http://arxiv.org/abs/1607.08022},
+	abstract = {It this paper we revisit the fast stylization method introduced in Ulyanov et. al. (2016). We show how a small change in the stylization architecture results in a significant qualitative improvement in the generated images. The change is limited to swapping batch normalization with instance normalization, and to apply the latter both at training and testing times. The resulting method can be used to train high-performance architectures for real-time image generation. The code will is made available on github at https://github.com/DmitryUlyanov/texture\_nets. Full paper can be found at arXiv:1701.02096.},
+	urldate = {2019-09-04},
+	journal = {arXiv:1607.08022 [cs]},
+	author = {Ulyanov, Dmitry and Vedaldi, Andrea and Lempitsky, Victor},
+	month = jul,
+	year = {2016},
+	note = {arXiv: 1607.08022},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	file = {arXiv\:1607.08022 PDF:/Users/yl/Zotero/storage/Y4KV59EK/Ulyanov et al. - 2016 - Instance Normalization The Missing Ingredient for.pdf:application/pdf;arXiv.org Snapshot:/Users/yl/Zotero/storage/YESUWVMJ/1607.html:text/html}
+}
+
+@inproceedings{devlin_bert:_2019,
+	address = {Minneapolis, Minnesota},
+	title = {{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}},
+	shorttitle = {{BERT}},
+	url = {https://www.aclweb.org/anthology/N19-1423},
+	doi = {10.18653/v1/N19-1423},
+	abstract = {We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).},
+	urldate = {2019-09-04},
+	booktitle = {Proceedings of the 2019 {Conference} of the {North} {American} {Chapter} of the {Association} for {Computational} {Linguistics}: {Human} {Language} {Technologies}, {Volume} 1 ({Long} and {Short} {Papers})},
+	publisher = {Association for Computational Linguistics},
+	author = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+	month = jun,
+	year = {2019},
+	pages = {4171--4186},
+	file = {Full Text PDF:/Users/yl/Zotero/storage/GB6YGBFZ/Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf:application/pdf}
+}
+
+@article{yang_xlnet:_2019,
+	title = {{XLNet}: {Generalized} {Autoregressive} {Pretraining} for {Language} {Understanding}},
+	shorttitle = {{XLNet}},
+	url = {http://arxiv.org/abs/1906.08237},
+	abstract = {With the capability of modeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves better performance than pretraining approaches based on autoregressive language modeling. However, relying on corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-finetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order and (2) overcomes the limitations of BERT thanks to its autoregressive formulation. Furthermore, XLNet integrates ideas from Transformer-XL, the state-of-the-art autoregressive model, into pretraining. Empirically, XLNet outperforms BERT on 20 tasks, often by a large margin, and achieves state-of-the-art results on 18 tasks including question answering, natural language inference, sentiment analysis, and document ranking.},
+	urldate = {2019-09-04},
+	journal = {arXiv:1906.08237 [cs]},
+	author = {Yang, Zhilin and Dai, Zihang and Yang, Yiming and Carbonell, Jaime and Salakhutdinov, Ruslan and Le, Quoc V.},
+	month = jun,
+	year = {2019},
+	note = {arXiv: 1906.08237},
+	keywords = {Computer Science - Computation and Language, Computer Science - Machine Learning},
+	file = {arXiv\:1906.08237 PDF:/Users/yl/Zotero/storage/SJ3U3EMM/Yang et al. - 2019 - XLNet Generalized Autoregressive Pretraining for .pdf:application/pdf;arXiv.org Snapshot:/Users/yl/Zotero/storage/HJWC27U9/1906.html:text/html}
+}
+
+@inproceedings{yang_hotpotqa:_2018,
+	address = {Brussels, Belgium},
+	title = {{HotpotQA}: {A} {Dataset} for {Diverse}, {Explainable} {Multi}-hop {Question} {Answering}},
+	shorttitle = {{HotpotQA}},
+	url = {https://www.aclweb.org/anthology/D18-1259},
+	doi = {10.18653/v1/D18-1259},
+	abstract = {Existing question answering (QA) datasets fail to train QA systems to perform complex reasoning and provide explanations for answers. We introduce HotpotQA, a new dataset with 113k Wikipedia-based question-answer pairs with four key features: (1) the questions require finding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) we provide sentence-level supporting facts required for reasoning, allowing QA systems to reason with strong supervision and explain the predictions; (4) we offer a new type of factoid comparison questions to test QA systems' ability to extract relevant facts and perform necessary comparison. We show that HotpotQA is challenging for the latest QA systems, and the supporting facts enable models to improve performance and make explainable predictions.},
+	urldate = {2019-09-04},
+	booktitle = {Proceedings of the 2018 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}},
+	publisher = {Association for Computational Linguistics},
+	author = {Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William and Salakhutdinov, Ruslan and Manning, Christopher D.},
+	month = oct,
+	year = {2018},
+	pages = {2369--2380},
+	file = {Full Text PDF:/Users/yl/Zotero/storage/M9WDQUYL/Yang et al. - 2018 - HotpotQA A Dataset for Diverse, Explainable Multi.pdf:application/pdf}
+}
